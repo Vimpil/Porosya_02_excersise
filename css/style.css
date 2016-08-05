@@ -261,10 +261,8 @@ div.discounts-box {
 div.present_window {
 	height: 325px;
 	width: 550px;
-	position: absolute;
 	top: -170px;
 	background: #fff url(../images/form_background.png) center bottom no-repeat;
-	left: 0
 }
 div.container_pres {
 	margin-left: 30px;
@@ -386,7 +384,7 @@ div.inputboxes_pres {
 	width: 260px;
 	position: absolute;
 	top: 54px;
-	left: 665px;
+	left: 663px;
 	text-align: left;
 	background: url(../images/dropdown_menu_sprite.png) center center no-repeat
 }
