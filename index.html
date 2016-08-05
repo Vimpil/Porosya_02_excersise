@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>
-		PostovSrub
-		</title>
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta name="format-detection" content="telephone=no">
 		
-		<!--jquery-->
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<!--END jquery-->
+		<title>
+		PostovSrub
+		</title>
 		<!--bootstrap-->
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" media="all">
-		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<link rel="stylesheet"  href="bootstrap/css/bootstrap.css" type="text/css" media="all">
 		<!--END bootstrap-->
-		
-		
 		<!--style-->
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8"/>
 		<link rel="stylesheet" href="css/ie8style.css" type="text/css" media="all">
 		<!--END style-->
+		<!--Fancybox CSS-->
+		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<!-- END Fancybox -->
+		<!--jquery-->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<!--END jquery-->
+		
+		
+		
+		
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
 		<!--script-->
 		<script src="js/script.js"></script>
 		<!--END script-->
@@ -42,14 +49,14 @@
 				<a href="index.html" class="left-up-h">
 					<div class="logo"></div>
 					<div class="l-u-h_text">
-						<div class="h2">Пестовские срубы</div>
-						<div class="h3">У нас всегда хорошие цены!</div>
+						<div class="berest_zagol logo_berest_zagol">Пестовские срубы</div>
+						<div class="sub_zagol">У нас всегда хорошие цены!</div>
 					</div>
 				</a>
 				<div class="right-up-h">
 					<div class="contacts">
-						<div class="sprite_phone"><a>8 (981) 260-50-50</a></div>
-						<div class="email"><a href="#">pestovskiesrubi@gmail.com</a></div>
+						<div class="sprite_phone"><a id="phone_number" class="PostovSrub" href="tel:+79812605050">8 (981) 260-50-50</a></div>
+						<div class="email"><a href="#"><span>pestovskiesrubi@gmail.com</span></a></div>
 					</div>
 					<a href="#" class="call_btn">
 						<div class="call_btn_sign">Заказать звонок</div></a>
@@ -59,25 +66,13 @@
 			<div class="fluid-container header-logo">
 				<div class="container">
 					<div class="discounts">
-						<a href="#">
+						<a href="#present_window" class="present_window">
 							<div class="present_sprite_box">
 								<div class="present_sprite">
 								</div>
 								<div class="discounts-box">
 									Узнайте о наши акциях
 									<div class="discounts-box_backgr"></div>
-									<div class="present_window none">
-										<div class="container_pres">
-											<div class="presText">
-												<h2><b>Ваш подарок</b> готов к отправке!</h2>
-												<p class="first_p_text_present">Всем, кто заключит договор на строительство дома или бани – индивидуальный подарок.</p>
-												<p class="second_p_text_present">Узнайте подробности, оставьте телефон и мы перезвоним вам!</p>
-												<div class="inputboxes_pres">
-													<input type="text" name="phone_for_gift" placeholder="Ваш телефон"><input type="submit" value="Отправить" class="yellow-button">
-												</div>
-											</div>
-										</div>
-									</div>
 								</div>
 							</div>
 						</a>
@@ -93,7 +88,7 @@
 					<li><a href="#">Фотогалерея</a></li>
 					<li><a href="#">Где строим</a></li>
 					<li><a href="#">Контакты</a></li>
-					<li><a href="#" id="to_customer">Заказчику</a>
+					<li><div id="to_customer">Заказчику<div class="custom_arr"></div></div>
 					<div class="to_customer_submenu none">
 						<ol>
 							<li><a href="#">Способы оплаты</a></li>
@@ -111,50 +106,49 @@
 	<!--READY PROJECTS BACK-->
 	<div class="fluid-container ready_projects_back">
 		<div class="container">
-			<div class="h1"><span class="bold_ready_projects">Готовые</span> проекты срубов</div>
-			<div class="h3">Срок постройки по готовому проекту меньше недели!</div>
-			<div class="container">
-				<div class="project-boxes">
-					<div class="proj_box discount_proj">
-						<div class="discount_sign"></div>
-						<div class="proj_inbox">
-							<div class="h5">Проект Д-47</div>
-							<img src="images/project_box.png">
-							<div class="h4">Цена от: <span class="strikethrough">1 500 000</span></div>
-							<div class="h3">1 300 000 <span class="rubl">a</span></div>
-							<div class="line"></div>
-							<span class="barcode"><p>Площадь: <b>120 м<sup>2</sup>  /</b>   Размер: <b>6х9 м</b></p></span>
-							<div class="proj_btn_line"></div>
-							<input type="submit" value="Посмотреть проект" class="yellow-button">
-						</div>
-					</div>
-					<div class="proj_box">
-						<div class="proj_inbox">
-							<div class="h5">Проект Д-47</div>
-							<img src="images/project_box.png">
-							<div class="h4">Цена от: <span class="strikethrough">1 500 000</span></div>
-							<div class="h3">1 300 000 <span class="rubl">a</span></div>
-							<div class="line"></div>
-							<span class="barcode"><p>Площадь: <b>120 м<sup>2</sup>  /</b>   Размер: <b>6х9 м</b></p></span>
-							<div class="proj_btn_line"></div>
-							<input type="submit" value="Посмотреть проект" class="yellow-button">
-						</div>
-					</div>
-					<div class="proj_box">
-						<div class="proj_inbox">
-							<div class="h5">Проект Д-47</div>
-							<img src="images/project_box.png">
-							<div class="h4">Цена от: <span class="strikethrough">1 500 000</span></div>
-							<div class="h3">1 300 000 <span class="rubl">a</span></div>
-							<div class="line"></div>
-							<span class="barcode"><p>Площадь: <b>120 м<sup>2</sup>  /</b>   Размер: <b>6х9 м</b></p></span>
-							<div class="proj_btn_line"></div>
-							<input type="submit" value="Посмотреть проект" class="yellow-button">
-						</div>
+			<div class="Ready_projects_title"><span class="bold_ready_projects">Готовые</span> проекты срубов</div>
+			<div class="h6">Срок постройки по готовому проекту меньше недели!</div>
+			<div class="project-boxes">
+				<div class="proj_box discount_proj">
+					<div class="discount_sign"></div>
+					<div class="proj_inbox">
+						<div class="p-1">Проект Д-47</div>
+						<img src="images/project_box.png">
+						<div class="price_before">Цена от: <span class="strikethrough">1 500 000</span></div>
+						<div class="current_price">1 300 000 <span class="rubl">a</span></div>
+						<div class="line"></div>
+						<span class="barcode"><div class="house_size">Площадь: <b>120 м<sup>2</sup>  /</b>   Размер: <b>6х9 м</b></div></span>
+						<input type="submit" value="Посмотреть проект" class="yellow-button">
 					</div>
 				</div>
-				<div class="proj_box_nav">
-					<div class="go_catalog">Перейти в каталог</div>
+				<div class="proj_box no_discount_proj">
+					<div class="proj_inbox">
+						<div class="p-1">Проект Д-47</div>
+						<img src="images/project_box.png">
+						<div class="price_before">Цена от: <span class="strikethrough">1 500 000</span></div>
+						<div class="current_price">1 300 000 <span class="rubl">a</span></div>
+						<div class="line"></div>
+						<span class="barcode"><div class="house_size">Площадь: <b>120 м<sup>2</sup>  /</b>   Размер: <b>6х9 м</b></div></span>
+						<div class="proj_btn_line"></div>
+						<input type="submit" value="Посмотреть проект" class="yellow-button">
+					</div>
+				</div>
+				<div class="proj_box no_discount_proj">
+					<div class="proj_inbox">
+						<div class="p-1">Проект Д-47</div>
+						<img src="images/project_box.png">
+						<div class="price_before">Цена от: <span class="strikethrough">1 500 000</span></div>
+						<div class="current_price">1 300 000 <span class="rubl">a</span></div>
+						<div class="line"></div>
+						<span class="barcode"><div class="house_size">Площадь: <b>120 м<sup>2</sup>  /</b>   Размер: <b>6х9 м</b></div></span>
+						<div class="proj_btn_line"></div>
+						<input type="submit" value="Посмотреть проект" class="yellow-button">
+					</div>
+				</div>
+			</div>
+			<div class="proj_box_nav">
+				<div class="go_catalog">Перейти в каталог</div>
+				<div class="catal_arrs">
 					<div class="catal_arr_left"></div>
 					<div class="catal_arr_right"></div>
 				</div>
@@ -164,47 +158,102 @@
 	<!--END READY PROJECTS BACK-->
 	<!--PROJECTS_QUALITY-->
 	<div class="projecs_quality">
-		<div class="h2">Пустовские срубы - качество от производителя</div>
-		<div class="achiev_blocks">
-			<div class="ach_blk"></div>
-			<div class="ach_blk"></div>
-			<div class="ach_blk"></div>
-		</div>
-		<div class="qual_overwrite">Любой здравомыслящий человек мечтает о красивом, уютном доме в живописном местечке за городом, который можно использовать для сезонного или постоянного проживания. Стоит уточнить, что какими бы прекрасными ни были загородные дома на вторичном рынке жилья, они не могут в полной мере соответствовать всем требованиям будущего домовладельца. Заказав строительство деревянных каркасных домов под ключ в Ярославле у нас, Вы станете владельцем идеального строения, которое устроит Вас по всем параметрам. Вы лично сможете выбрать проект будущего дома и, если необходимо, принять непосредственное участие в процессе его корректировки.</div>
-		<div class="h2">Как мы строим срубы</div>
-		<div class="qual_plan_img"></div>
-		<div class="h2">Выгодно для вас</div>
-		<div class="benefits_boxes">
-			<div class="benefit_box"></div>
-			<div class="benefit_box"></div>
-			<div class="benefit_box"></div>
+		<div class="container">
+			<div class="berest_zagol">Пестовские срубы <span class="kels_font">- качество от производителя</span></div>
+			<div class="achiev_blocks">
+				<div class="ach_blk"><b>5</b><span>лет работы</span></div>
+				<div class="ach_blk"><b>64</b> <span>сруба построено</span></div>
+				<div class="ach_blk"><b>3</b><span>постоянных бригады</span></div>
+			</div>
+			<div class="qual_overwrite">Любой здравомыслящий человек мечтает о красивом, уютном доме в живописном местечке за городом, который можно использовать для сезонного или постоянного проживания. Стоит уточнить, что какими бы прекрасными ни были загородные дома на вторичном рынке жилья, они не могут в полной мере соответствовать всем требованиям будущего домовладельца. Заказав <a>строительство</a> деревянных каркасных домов под ключ в Ярославле у нас, Вы станете владельцем идеального строения, которое устроит Вас по всем параметрам. Вы лично сможете выбрать проект будущего дома и, если необходимо, <div class="center">принять непосредственное участие в процессе его корректировки.</div></div>
+			<div class="kels-font_how">Как мы строим срубы</div>
+			<div class="qual_plan_img"></div>
+			<div class="line"></div>
+			<div class="qual_title">Выгодно для вас</div>
+			<div class="benefits_boxes">
+				<div class="benefit_box first_child">
+					<div class="box_no_mediators_icon"></div>
+					<div class="benefit_header">Без посредников</div>
+					<div class="benefit_textBlock">У нас свое деревообрабатывающее<br> производство. Мы работаем без посред-<br>ников. Не снимаем дорогостоящие<br> офисы. В совокупности это дает адек-<br>ватную цену на строительство.
+					</div>
+				</div>
+				<div class="benefit_box">
+					<div class="box_documents_icon"></div>
+					<div class="benefit_header">Честный договор</div>
+					<div class="benefit_textBlock">При составлении договора учитывают-<br>ся все нюансы оплаты и строитель-<br>ства, в том числе и гаранатия 1 год на<br> выполнение всех видов работ.
+					</div>
+				</div>
+				<div class="benefit_box last_child">
+					<div class="box_gear_icon"></div>
+					<div class="benefit_header">Гибкость</div>
+					<div class="benefit_textBlock">Если вы не смогли подобрать готовый<br> проект по вашему желанию, мы можем<br> предложить создать индивидуальный<br> план, внести изменения в имеющийся<br> или использовать ваш проект.
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!--END PROJECTS QUALITY-->
-	
 	<!--EASY WORK-->
 	<div class="fluid-container easy-work">
 		<div class="container">
-			<div class="h2">С нами легко работать!</div>
+			<div class="berest_zagol">С нами легко работать!</div>
 			<div class="easy_boxes">
-				<div class="easy_box"></div>
-				<div class="easy_box"></div>
-				<div class="easy_box"></div>
-				<div class="easy_box"></div>
+				<div class="easy_box first-child"><div class="easy_box_teleph_icon"></div><div class="easy_box_text">Закажите проект на сайте<br> или по телефону</div></div>
+				<div class="easy_box"><div class="easy_box_agreement_icon"></div><div class="easy_box_text">Мы заключаем договор на<br> выгодных для вас условиях</div></div>
+				<div class="easy_box"><div class="easy_box_hammer_icon"></div><div class="easy_box_text">Строительство сруба займет<br> всего лишь 5-10 дней</div></div>
+				<div class="easy_box last-child"><div class="easy_box_money_icon"></div><div class="easy_box_text">Работаем без пред. оплаты.<br> Оплата поэтапно. Без скрытых<br> платежей.</div></div>
 			</div>
-			<div class="easy_box"></div>
+			<div class="easy_box middle_marging"><div class="easy_box_footer_house_icon"></div><div class="easy_box_text_footer">Ваш  сруб готов!</div></div>
 		</div>
 	</div>
 	<!--END EASY WORK-->
 	<!--FOOTER-->
-	<div class="container">
+	<div class="fluid-container">
 		<div class="footer">
-			<div class="footer-1"></div>
-			<div class="footer-2"></div>
-			<div class="footer-3"></div>
-			<div class="footer-4"></div>
+			<div class="container">
+				<div class="footer_boxes">
+					<div class="footer-1">
+						<div class="footer_logo_icon arrow_footer"></div>
+						<div class="copy-write_text"><p>© 2015 СК “КомфортСтрой53”</p></div><br>
+						<div class="social_netw"></div>
+						<div class="footer_logo_icon social_vk"></div><div class="footer_logo_icon social_fb"></div><div class="footer_logo_icon social_tw"></div><div class="footer_logo_icon social_od"></div><div class="footer_logo_icon social_gp"></div>
+					</div>
+					<div class="footer-2">
+						<ul>
+							<li class="foot_li_non_active"><span>Срубы домов</span></li>
+							<li class="foot_li_non_active"><span>Срубы бань</span></li>
+							<li class="foot_li_non_active"><span>Фотогалерея</span></li>
+						</ul>
+					</div>
+					<div class="footer-3">
+						<ul>
+							<li class="foot_li_active"><span>Наши контакты</span></li>
+							<li class="foot_li_non_active"><span>Отзывы</span></li>
+							<li class="foot_li_non_active"><span>Полезные статьи</span></li>
+						</ul>
+					</div>
+					<div class="footer-4">
+						<a id="phone_number" class="PostovSrub" href="tel:+79812605050">8(981) 260- 50-50</a><a class="footer_email">pestovskiesrubi@gmail.com</a><div class="footer_site-dev"><div class="footer_site-dev_text"><p>Разработка сайта</p></div><div class="foot_site"> - kuratov.ru</div></div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!--END FOOTER-->
+	
+	<!--CALLBACK PRESENT-->
+	<div id="present_window" class="present_window" style="display: none">
+		<div class="container_pres">
+			<div class="presText">
+				<div class="berest_zagol"><b>Ваш подарок</b> готов к отправке!</div>
+				<div class="first_p_text_present">Всем, кто заключит договор на строительство дома или бани – индивидуальный подарок.</div>
+				<div class="second_p_text_present">Узнайте подробности, оставьте телефон и мы перезвоним вам!</div>
+				<div class="inputboxes_pres">
+					<input type="text" name="phone_for_gift" placeholder="Ваш телефон"><input type="submit" value="Отправить" class="yellow-button">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--END CALLBACK PRESENT-->
 </body>
 </html>

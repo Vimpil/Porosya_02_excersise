@@ -1,0 +1,213 @@
+style.css{
+    min-width: 1000px;
+    max-width: 1000px;
+}
+div.h2.logo_h2 {
+    font-size: 40px;
+    margin-top: 8px;
+    text-align: left;
+}
+.h2 {
+    font-family: "Beresta";
+    color: #192d37;
+    font-size: 44px;
+    font-weight: 400;
+    margin-top: 43px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.h3 {
+    color: #686d6f;
+    font-family: "Medieval";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.presText h2 {
+    color: #192d37;
+    font-family: "KelsonSans";
+    margin-top: 0px;
+    font-size: 33px;
+    font-weight: 400;
+}
+p.first_p_text_present {
+    color: #686d6f;
+    margin-top: 26px;
+}
+
+.presText p {
+    font-family: "Verdana";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.main_menu ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+a{
+	color:white;
+}
+.ready_projects_back .h1 {
+    font-family: KelsonSans;
+    font-size: 60px;
+    color: #192d37;
+    font-weight: 400;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.proj_inbox .h5 {
+    color: #192d37;
+    font-family: KelsonSans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 11px;
+}
+
+.proj_inbox .h4 {
+    color: #686d6f;
+    font-family: KelsonSans;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: -4px;
+}
+.ready_projects_back .proj_box .h3 {
+    color: #192d37;
+    font-family: KelsonSans;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.h2 {
+    font-family: "Beresta";
+    color: #192d37;
+    font-size: 44px;
+    font-weight: 400;
+    margin-top: 43px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.kels_font {
+    font-family: "KelsonSans";
+    font-size: 40px;
+}
+.ach_blk {
+    display: inline-block;
+    margin-top: 11px;
+    font-family: "KelsonSans";
+    font-size: 24px;
+    color: #686d6f;
+    margin-left: 41px;
+    margin-right: 41px;
+}
+.kels-font_h3 {
+    color: #192d37;
+    font-family: KelsonSans;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+div.projecs_quality div.h3 {
+    color: #192d37;
+    font-family: KelsonSans;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.benefit_header {
+    color: #192d37;
+    font-family: KelsonSans;
+    font-size: 24px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.benefit_box {
+    display: inline-block;
+    color: #686d6f;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 300px;
+    vertical-align: top;
+    margin: 20px 15px;
+}
+div.easy-work div.h2 {
+    color: #192d37;
+    font-family: KelsonSans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 26px;
+}
+div.easy_boxes div.easy_box_text {
+    color: #192d37;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 25px;
+    text-align: left;
+}
+.easy_box_text_footer {
+    color: #192d37;
+    font-family: KelsonSans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 5px;
+}
+.copy-write_text {
+    color: #686d6f;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6px;
+}
+.footer-2 {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Verdana;
+    line-height: 25px;
+    vertical-align: top;
+    margin-left: 45px;
+}
+div.footer_phone {
+    color: white;
+    font-family: KelsonSans;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -5px;
+    cursor: pointer;
+}
+div.footer_email {
+    color: white;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
