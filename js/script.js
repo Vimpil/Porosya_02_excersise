@@ -18,8 +18,7 @@ $(document).ready(function() {
 
 	//END Customer submenu
 
-	$("a.present_window").click(function(event) {
-			$(".present_window").fancybox({
+	var fancybox_options_array ={
 				"wrapCSS": "call",
 				"padding": 0,
 				helpers: {
@@ -31,24 +30,9 @@ $(document).ready(function() {
 						}
 					}
 				}
-			})
+			}
+
+	$("a.present_window").click(function(event) {
+			$(".present_window").fancybox(fancybox_options_array)
 		})
-		/*
-		$(document).click(function(event) {
-				if ($(event.target).closest("div.present_sprite_box").length) {
-					$(".present_sprite_box").fancybox({
-							"wrapCSS": "call",
-							padding: 0,
-							helpers: {
-								overlay: {
-									opacity: 0.1,
-									css: {
-										'background': 'rgba(90, 92, 94, 0.8)'
-									}
-								}
-							}
-						})
-					}
-				})
-				*/
 })
