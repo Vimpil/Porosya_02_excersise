@@ -14,7 +14,9 @@
 		<!--END bootstrap-->
 		<!--style-->
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8"/>
+		<!--[if lte IE 8]>
 		<link rel="stylesheet" href="css/ie8style.css" type="text/css" media="all">
+		<![endif]-->		
 		<!--END style-->
 		<!--Fancybox CSS-->
 		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
@@ -43,6 +45,7 @@
 		<!--[if IE 9]><div class="ie9 ie10"><![endif]-->
 		<!--[if gte IE 10]><div class="ie10"><![endif]-->
 		<!-- END IE FIX -->
+		
 		<!--HEADER-->
 		<div class="fluid-container upper-head">
 			<div class="container">
@@ -56,7 +59,7 @@
 				<div class="right-up-h">
 					<div class="contacts">
 						<div class="sprite_phone"><a id="phone_number" class="PostovSrub" href="tel:+79812605050">8 (981) 260-50-50</a></div>
-						<div class="email"><a href="#"><span>pestovskiesrubi@gmail.com</span></a></div>
+						<div class="email"><a href="mailto://pestovskiesrubi@gmail.com"><span>pestovskiesrubi@gmail.com</span></a></div>
 					</div>
 					<a href="#" class="call_btn">
 						<div class="call_btn_sign">Заказать звонок</div></a>
@@ -147,7 +150,9 @@
 				</div>
 			</div>
 			<div class="proj_box_nav">
+			<a href="#">
 				<div class="go_catalog">Перейти в каталог</div>
+				</a>
 				<div class="catal_arrs">
 					<div class="catal_arr_left"></div>
 					<div class="catal_arr_right"></div>
@@ -216,7 +221,7 @@
 						<div class="footer_logo_icon arrow_footer"></div>
 						<div class="copy-write_text"><p>© 2015 СК “КомфортСтрой53”</p></div><br>
 						<div class="social_netw"></div>
-						<div class="footer_logo_icon social_vk"></div><div class="footer_logo_icon social_fb"></div><div class="footer_logo_icon social_tw"></div><div class="footer_logo_icon social_od"></div><div class="footer_logo_icon social_gp"></div>
+						<div class="footer_logo_icon social_vk"></div><div class="footer_logo_icon social_fb non_active_logo"></div><div class="footer_logo_icon social_tw non_active_logo"></div><div class="footer_logo_icon social_od non_active_logo"></div><div class="footer_logo_icon social_gp non_active_logo"></div>
 					</div>
 					<div class="footer-2">
 						<ul>
@@ -233,7 +238,7 @@
 						</ul>
 					</div>
 					<div class="footer-4">
-						<a id="phone_number" class="PostovSrub" href="tel:+79812605050">8(981) 260- 50-50</a><a class="footer_email">pestovskiesrubi@gmail.com</a><div class="footer_site-dev"><div class="footer_site-dev_text"><p>Разработка сайта</p></div><div class="foot_site"> - kuratov.ru</div></div>
+						<a id="phone_number" class="PostovSrub" href="tel:+79812605050">8(981) 260- 50-50</a><a class="footer_email" href="mailto://pestovskiesrubi@gmail.com">pestovskiesrubi@gmail.com</a><a href="http://kuratov.ru"><div class="footer_site-dev"><div class="footer_site-dev_text"><p>Разработка сайта</p></div><div class="foot_site"> - kuratov.ru</div></div></a>
 					</div>
 				</div>
 			</div>
@@ -243,6 +248,7 @@
 	
 	<!--CALLBACK PRESENT-->
 	<div id="present_window" class="present_window" style="display: none">
+		<div class="present_sprite_background">
 		<div class="container_pres">
 			<div class="presText">
 				<div class="berest_zagol"><b>Ваш подарок</b> готов к отправке!</div>
@@ -252,6 +258,7 @@
 					<input type="text" name="phone_for_gift" placeholder="Ваш телефон"><input type="submit" value="Отправить" class="yellow-button">
 				</div>
 			</div>
+		</div>
 		</div>
 	</div>
 	<!--END CALLBACK PRESENT-->

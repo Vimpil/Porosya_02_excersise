@@ -33,6 +33,6 @@ $(document).ready(function() {
 			}
 
 	$("a.present_window").click(function(event) {
-			$(".present_window").fancybox(fancybox_options_array)
+			$("a.present_window").fancybox(fancybox_options_array)
 		})
 })

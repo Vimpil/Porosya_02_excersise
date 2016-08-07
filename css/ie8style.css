@@ -1,0 +1,32 @@
+
+div.call_btn_sign{
+	width:140px;
+	margin-top:4px;
+	margin-left:24px;
+}
+
+.last-child.easy_box{
+	margin-left:17px!important;
+	margin-right:10px!important;
+}
+.foot_li_non_active span:before{
+	text-decoration:none!important;
+	overflow:hidden;
+	line-height:4px;
+	display:inline-block;
+	padding-bottom:3px;
+	font-family:"Myriad Pro";
+	font-size:10px!important;
+}
+.foot_li_active span:before{
+	text-decoration:none!important;
+	overflow:hidden;
+	line-height:4px;
+	display:inline-block;
+	padding-bottom:3px;
+	font-family:"Myriad Pro";
+	font-size:10px!important;
+}
+.foot_li_non_active{
+	color:#68777E!important;
+}
