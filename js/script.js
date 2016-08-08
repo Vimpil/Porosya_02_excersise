@@ -1,4 +1,10 @@
 $(document).ready(function() {
+	$('.flexslider').flexslider({
+        animation: "fade", // slide or fade
+        controlsContainer: ".flex-container" // the container that holds the flexslider
+    });
+
+	
 	//Customer_submenu
 	$("#to_customer").click(function(event) {
 		event.stopPropagation();
