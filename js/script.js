@@ -1,10 +1,22 @@
 $(document).ready(function() {
+
+	// BEGIN FLEXSLIDER
+
 	$('.flexslider').flexslider({
         animation: "fade", // slide or fade
         controlsContainer: ".flex-container" // the container that holds the flexslider
     });
 
-	
+    $("div.catal_arr_right").click(function() {
+        $(".project-boxes " + " li.flex-nav-next a").click();
+    });
+
+    $("div.catal_arr_left").click(function() {
+        $(".project-boxes " + " li.flex-nav-prev a").click();
+    });
+
+	// END FLEXSLIDER
+
 	//Customer_submenu
 	$("#to_customer").click(function(event) {
 		event.stopPropagation();

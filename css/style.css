@@ -353,6 +353,16 @@ div.fancybox-skin {
 	right: 5px;
 	top: 5px;
 }
+.project-boxes > div{
+	border:none;
+	background: none;
+}
+.flex-direction-nav{
+	display: none;
+}
+.project-boxes .flex-control-nav{
+	display: none;
+}
 .presText div {
 	font-family: "Verdana";
 	line-height: 18px
