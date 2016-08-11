@@ -7,7 +7,7 @@
 	font-stretch: normal
 }
 @font-face {
-	font-family: 'Medieval';
+	font-family:'Medieval';
 	src: url(../fonts/Medieval-Normal.eot);
 	src: url(../fonts/Medieval-Normal.eot?#iefix) format('embedded-opentype'), url(../fonts/Medieval-Normal.woff) format('woff'), url(../fonts/Medieval-Normal.ttf) format('truetype'), url(../fonts/Medieval-Normal.svg#Medieval-Normal) format('svg');
 	font-weight: 400;
@@ -605,7 +605,7 @@ div.proj_box input {
 .catal_arr_left {
 	background: url(../images/to_catalog_left.png) center center no-repeat;
 	margin-left: 19px;
-	margin-right: 10px
+	margin-right: 7px;
 }
 .catal_arr_right {
 	background: url(../images/to_catalog_right.png) center center no-repeat;
@@ -955,4 +955,93 @@ div.footer-2 ul li span:before, div.footer-3 ul li span:before {
 }
 .non_active_logo{
 	cursor: default;
+}
+.main_menu a.active{
+	color:#e9b707;
+	cursor: default;
+}
+.site_map .parent{
+	text-decoration: underline;
+	font-family: "Verdana";
+	font-size: 14px;
+	display: inline-block;
+}
+
+.fluid-container.header-logo.cropped{
+	height: 400px;
+	background-position-y: top;
+
+}
+.cropped .discounts{
+	background-color: black;
+	margin-top: 165px;
+}
+.elem_connection{
+	display: inline-block;
+	font-family: "Verdana";
+	color: #BDBFBF;
+	font-size: 14px;
+	position: absolute;;
+	top: 557px;
+	left: 236px;;
+}
+.curr_chld{
+	display: inline-block;
+	font-family: "Verdana";
+	font-size: 14px;
+	color: #686d6f;
+	padding-left: 25px;;
+}
+.site_map{
+	margin-top: 15px;
+	margin-left: 45px;	
+}
+.gal_header{
+	color: #192d37;
+	font-family: KelsonSans;
+	font-size: 60px;
+	font-weight: 400;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.gal_boxes .flexslider{
+	border:none;
+}
+.srub_main_gal .flex-control-paging li{
+	position: relative;
+}
+.srub_main_gal .flex-control-paging li a{
+	background-color: #A3ABAF;
+	height: 30px;
+	width: 30px;
+	border-radius: 2px;
+}
+
+.srub_main_gal .flex-control-paging li a.flex-active{
+	background-color: #E9B707;	
+}
+
+.srub_main_gal .flex-control-paging li span{
+	color: white;
+	font-family: KelsonSans;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 18px;
+	padding-bottom: 40px;
+	position: absolute;
+	top:7px;
+	left: 10px;
+	pointer-events: none;
+}
+
+.srub_main_gal .flex-control-paging{
+	top:1435px;
+	position:absolute;
+	left:370px;
+}
+.srub_main_gal .go_catalog{
+	margin-right: 100px;
+}
+.srub_main_gal .flex-control-paging{
+
 }

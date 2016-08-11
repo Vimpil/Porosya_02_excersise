@@ -17,6 +17,15 @@ $(document).ready(function() {
 
 	// END FLEXSLIDER
 
+	// GALLARY FLEXSLIDER
+	var li_flexl_count
+	$.each($(".srub_main_gal .flex-control-nav li"),function() {
+		console.log($(this).index()+1);
+		//$(this).text($(this).index()+1);
+		$(this).append('<span>'+($(this).index()+1)+'</span>');
+	});
+	// END GALLARY FLEXSLIDER
+
 	//Customer_submenu
 	$("#to_customer").click(function(event) {
 		event.stopPropagation();
