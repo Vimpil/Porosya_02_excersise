@@ -956,6 +956,7 @@ div.footer-2 ul li span:before, div.footer-3 ul li span:before {
 .non_active_logo{
 	cursor: default;
 }
+
 .main_menu a.active{
 	color:#e9b707;
 	cursor: default;
