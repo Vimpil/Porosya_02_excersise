@@ -54,7 +54,7 @@
 	font-style: normal;
 	font-stretch: normal;
 }
-a:link,a:active,a:visited {
+a:link, a:active, a:visited {
 	color: white;
 	text-decoration: none;
 }
@@ -88,7 +88,7 @@ a:link,a:active,a:visited {
 #phone_number:hover {
 	text-decoration: none;
 }
-div.fluid-container.upper-head a:active,div.fluid-container.upper-head a:link,div.fluid-container.upper-head a:hover,div.fluid-container.upper-head a:visited,div.upper-head a:hover {
+div.fluid-container.upper-head a:active, div.fluid-container.upper-head a:link, div.fluid-container.upper-head a:hover, div.fluid-container.upper-head a:visited, div.upper-head a:hover {
 	text-decoration: none;
 }
 div.call_btn_sign {
@@ -97,6 +97,9 @@ div.call_btn_sign {
 	font-size: 16px;
 	font-weight: 400;
 	border-bottom: 2px dotted #fff;
+	border-bottom: 2px dotted rgba(500, 500, 500, .4);
+	-webkit-background-clip: padding-box; /*Safari*/
+	background-clip: padding-box; /* Firefox 4, Safari 5, Opera 10, IE 9 */
 	width: 137px;
 	display: block;
 	margin-left: 25px;
@@ -123,7 +126,7 @@ div.call_btn_sign {
 	-o-transform: rotate(-11deg);
 	transform: rotate(-11deg);
 }
-.berest_zagol,.sub_zagol {
+.berest_zagol, .sub_zagol {
 	font-weight: 400;
 }
 .berest_zagol {
@@ -151,7 +154,7 @@ span.rubl {
 	width: 85px;
 	height: 75px;
 }
-.contacts,.logo,.main_menu li {
+.contacts, .logo, .main_menu li {
 	display: inline-block;
 }
 .sprite_phone:before {
@@ -171,7 +174,7 @@ span.rubl {
 div.email {
 	margin-top: 6px;
 }
-.email span,.presText .berest_zagol,.presText div {
+.email span, .presText .berest_zagol, .presText div {
 	font-size: 14px;
 	font-weight: 400;
 }
@@ -179,7 +182,7 @@ div.email {
 	color: #192d37;
 	font-family: Verdana;
 }
-.email span,div.email a:hover {
+.email span, div.email a:hover {
 	text-decoration: underline;
 }
 .upper-head .container {
@@ -213,7 +216,7 @@ div.berest_zagol.logo_berest_zagol {
 	margin-top: 280px;
 	color: #fff;
 }
-.discounts-box,.present_sprite_box {
+.discounts-box, .present_sprite_box {
 	display: block;
 	border-radius: 2px;
 	height: 60px;
@@ -282,7 +285,7 @@ div.presText {
 	width: 488px;
 	margin-left: 1px;
 }
-div.presText span,#phone_number {
+div.presText span, #phone_number {
 	font-family: "Kelsonsans";
 }
 div.present_window input[type=text] {
@@ -314,7 +317,7 @@ div.present_window input::-moz-placeholder {
 div.present_window input:-ms-input-placeholder {
 	color: #878B8D;
 }
-.main_menu a,input.yellow-button,#to_customer {
+.main_menu a, input.yellow-button, #to_customer {
 	font-family: Verdana;
 	font-size: 16px;
 }
@@ -394,13 +397,13 @@ div.inputboxes_pres {
 	color: white;
 	cursor: pointer;
 }
-.main_menu a,#to_customer {
+.main_menu a, #to_customer {
 	position: relative;
 	padding: 12px 18px;
 	font-weight: 500;
 	display: inline-block;
 }
-.main_menu a:hover,#to_customer:hover {
+.main_menu a:hover, #to_customer:hover {
 	color: #e9b707;
 	text-decoration: none;
 }
@@ -517,7 +520,7 @@ div.proj_inbox {
 	margin-right: 18px;
 	position: relative;
 }
-.proj_inbox .price_before,.proj_inbox .p-1,.ready_projects_back .h6 {
+.proj_inbox .price_before, .proj_inbox .p-1, .ready_projects_back .h6 {
 	font-family: KelsonSans;
 	font-weight: 400;
 }
@@ -533,7 +536,7 @@ div.proj_inbox {
 	margin-top: 12px;
 	margin-bottom: -5px;
 }
-.proj_inbox .house_size,div.qual_overwrite {
+.proj_inbox .house_size, div.qual_overwrite {
 	color: #686d6f;
 	font-family: Verdana;
 	font-size: 14px;
@@ -583,7 +586,7 @@ div.proj_box input {
 	display: inline-block;
 	cursor: pointer;
 }
-.catal_arr_left,.catal_arr_right {
+.catal_arr_left, .catal_arr_right {
 	width: 15px;
 	height: 20px;
 	display: inline-block;
@@ -623,7 +626,7 @@ div.proj_box input {
 	display: block;
 	margin-top: -10px;
 }
-.ach_blk b,.kels-font_h6 {
+.ach_blk b, .kels-font_h6 {
 	color: #192d37;
 	font-weight: 700;
 }
@@ -660,7 +663,7 @@ div.projecs_quality div.line {
 	display: block;
 	margin: 0 auto;
 }
-div.easy-work div.berest_zagol,div.projecs_quality div.qual_title {
+div.easy-work div.berest_zagol, div.projecs_quality div.qual_title {
 	color: #192d37;
 	font-family: KelsonSans;
 	font-weight: 700;
@@ -674,7 +677,7 @@ div.projecs_quality div.qual_title {
 	display: block;
 	text-align: center;
 }
-.benefit_box,.benefit_header {
+.benefit_box, .benefit_header {
 	font-weight: 400;
 	display: inline-block;
 }
@@ -729,7 +732,7 @@ div.easy-work div.berest_zagol {
 	font-size: 40px;
 	margin-top: 26px;
 }
-.easy_boxes,div.footer_phone {
+.easy_boxes, div.footer_phone {
 	text-align: center;
 	margin-top: 20px;
 }
@@ -868,7 +871,7 @@ div.footer_boxes span {
 	line-height: 25px;
 	margin-left: 45px;
 }
-.footer-2,.footer-3,.footer-4 {
+.footer-2, .footer-3, .footer-4 {
 	display: inline-block;
 	color: #fff;
 	vertical-align: top;
@@ -908,7 +911,7 @@ div.footer_site-dev {
 	font-weight: 400;
 	margin-top: 10px;
 }
-div.footer_site-dev div.foot_site,div.footer_site-dev_text {
+div.footer_site-dev div.foot_site, div.footer_site-dev_text {
 	text-decoration: none;
 	display: inline-block;
 	cursor: pointer;
@@ -928,10 +931,10 @@ li.foot_li_non_active {
 	-moz-opacity: 0.25;
 	-khtml-opacity: 0.25;
 }
-div.footer-2 ul,div.footer-3 ul {
+div.footer-2 ul, div.footer-3 ul {
 	list-style-type: none;
 }
-div.footer-2 ul li span:before,div.footer-3 ul li span:before {
+div.footer-2 ul li span:before, div.footer-3 ul li span:before {
 	content: "• ";
 	display: inline-block;
 	margin-right: 2px;
@@ -1029,7 +1032,6 @@ div.footer-2 ul li span:before,div.footer-3 ul li span:before {
 .srub_main_gal {
 	padding-bottom: 62px;
 }
-
 .gal_boxes {
 	margin-bottom: 32px;
 }
