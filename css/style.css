@@ -457,11 +457,6 @@ div.inputboxes_pres {
 	color: #eab600;
 	font-weight: 700;
 }
-.ready_projects_back .h6 {
-	color: #686d6f;
-	font-size: 24px;
-	text-align: center;
-}
 .current_price {
 	color: #192d37;
 	font-family: KelsonSans;
@@ -520,7 +515,7 @@ div.proj_inbox {
 	margin-right: 18px;
 	position: relative;
 }
-.proj_inbox .price_before, .proj_inbox .p-1, .ready_projects_back .h6 {
+.proj_inbox .price_before, .proj_inbox .p-1, .ready_projects_back .Ready_projects_subtitle {
 	font-family: KelsonSans;
 	font-weight: 400;
 }
@@ -626,7 +621,7 @@ div.proj_box input {
 	display: block;
 	margin-top: -10px;
 }
-.ach_blk b, .kels-font_h6 {
+.ach_blk b{
 	color: #192d37;
 	font-weight: 700;
 }
@@ -1034,4 +1029,9 @@ div.footer-2 ul li span:before, div.footer-3 ul li span:before {
 }
 .gal_boxes {
 	margin-bottom: 32px;
+}
+.Ready_projects_subtitle{
+    color: #686d6f;
+    font-size: 24px;
+    text-align: center;
 }
