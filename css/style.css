@@ -7,10 +7,18 @@
 	font-stretch: normal;
 }
 @font-face {
-	font-family: 'Verdana-Bold';
+	font-family: 'Verdana';
 	src: url(../fonts/Verdana-Bold.eot);
 	src: url(../fonts/Verdana-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/Verdana-Bold.woff) format('woff'), url(../fonts/Verdana-Bold.ttf) format('truetype'), url(../fonts/Verdana-Bold.svg#Verdana-Bold) format('svg');
-	font-weight: 700;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: 'Verdana';
+	src: url(../fonts/Verdana.eot);
+	src: url(../fonts/Verdana.eot?#iefix) format('embedded-opentype'), url(../fonts/Verdana.woff) format('woff'), url(../fonts/Verdana.ttf) format('truetype'), url(../fonts/Verdana.svg#Verdana) format('svg');
+	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
 }
@@ -35,7 +43,7 @@
 	src: url(../fonts/Kelsonsans-Bold.eot);
 	src: url(../fonts/Kelsonsans-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/Kelsonsans-Bold.woff) format('woff'), url(../fonts/Kelsonsans-Bold.ttf) format('truetype'), url(../fonts/Kelsonsans-Bold.svg#Kelsonsans-Bold) format('svg');
 	font-weight: 700;
-	font-style: normal;
+	font-style: bold;
 	font-stretch: normal;
 }
 @font-face {
