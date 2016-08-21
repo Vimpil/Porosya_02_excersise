@@ -829,6 +829,7 @@ div.easy_boxes div.easy_box_text {
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 6px;
+	margin-left: -4px;
 }
 .footer_logo_icon.arrow_footer {
 	width: 31px;
@@ -872,7 +873,7 @@ div.footer_boxes span {
 	font-weight: 400;
 	font-family: Verdana;
 	line-height: 25px;
-	margin-left: 45px;
+	margin-left: 44px;
 }
 .footer-2, .footer-3, .footer-4 {
 	display: inline-block;
@@ -884,11 +885,12 @@ div.footer_boxes span {
 	font-weight: 400;
 	font-family: Verdana;
 	line-height: 25px;
-	margin-left: 40px;
+	margin-left: 43px;
 }
 .footer-4 {
 	text-align: right;
 	float: right;
+	    margin-top: -6px;
 }
 div.footer_phone {
 	color: #fff;
@@ -906,13 +908,14 @@ a.footer_email {
 	text-decoration: underline;
 	cursor: pointer;
 	display: block;
+	margin-top: 3px;
 }
 div.footer_site-dev {
 	color: #686d6f;
 	font-family: Verdana;
 	font-size: 12px;
 	font-weight: 400;
-	margin-top: 10px;
+	margin-top: 12px;
 }
 div.footer_site-dev div.foot_site, div.footer_site-dev_text {
 	text-decoration: none;
@@ -924,25 +927,30 @@ div.footer_site-dev_text {
 }
 li.foot_li_active {
 	opacity: 1;
+	margin-bottom: 3px;
+}
+li.foot_li_non_active span {
+	text-decoration: underline;
 }
 li.foot_li_non_active {
-	opacity: 0.25;
-	text-decoration: underline;
+	opacity: 0.25;	
 	cursor: pointer;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
 	filter: alpha(opacity=25);
 	-moz-opacity: 0.25;
 	-khtml-opacity: 0.25;
+	margin-bottom: 3px;
 }
 div.footer-2 ul, div.footer-3 ul {
 	list-style-type: none;
 }
-div.footer-2 ul li span:before, div.footer-3 ul li span:before {
+div.footer-2 ul li:before, div.footer-3 ul li:before {
 	content: "• ";
 	display: inline-block;
 	margin-right: 2px;
 	font-family: "Myriad Pro";
 	font-size: 15px;
+	text-decoration: none;
 }
 .non_active_logo {
 	cursor: default;
@@ -1043,3 +1051,53 @@ div.footer-2 ul li span:before, div.footer-3 ul li span:before {
     font-size: 24px;
     text-align: center;
 }
+.h1,.h2,.h3,.h4,h1,h2,h3,h4{
+	text-align: center;
+}
+.h1,h1{
+	color: #192d37;
+	font-family: KelsonSans;
+	font-size: 60px;
+	line-height: 40px;
+	margin-bottom: 40px;
+	}
+	.h2,h2{
+		color: #192d37;
+		font-family: KelsonSans;
+		font-size: 40px;
+		font-weight: 400;
+		line-height: 28px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.h3,h3{
+			color: #192d37;
+			font-family: KelsonSans;
+			font-size: 30px;
+			font-weight: 700;
+	}
+	.font_template{
+		margin-top:50px;
+	}
+.p,p{
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #686d6f;
+	width: 970px;
+  	line-height: 24px;
+  	text-align: justify;
+  	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+}
+.font_template u{
+	color: #192d37;
+}
+/*
+li{
+	list-style-type: none;
+}
+*/
