@@ -8,11 +8,12 @@ $(document).ready(function() {
     });
 
     $("div.catal_arr_right").click(function() {
-        $(".project-boxes " + " li.flex-nav-next a").click();
+    	console.log("right_down");
+        $(".gal_boxes " + " a.flex-next").click();
     });
 
     $("div.catal_arr_left").click(function() {
-        $(".project-boxes " + " li.flex-nav-prev a").click();
+        $(".gal_boxes " + " a.flex-prev").click();
     });
 
 	// END FLEXSLIDER
@@ -20,10 +21,13 @@ $(document).ready(function() {
 	// GALLARY FLEXSLIDER
 	var li_flexl_count
 	$.each($(".srub_main_gal .flex-control-nav li"),function() {
-		console.log($(this).index()+1);
-		//$(this).text($(this).index()+1);
 		$(this).append('<span>'+($(this).index()+1)+'</span>');
 	});
+	li_flexl_count=0;
+	$.each($(".srub_elements_gal .flex-control-nav li"),function() {
+		$(this).append('<span>'+($(this).index()+1)+'</span>');
+	});
+
 	// END GALLARY FLEXSLIDER
 
 	//Customer_submenu

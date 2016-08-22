@@ -475,13 +475,13 @@ div.inputboxes_pres {
 }
 .proj_box {
 	width: 320px;
-	height: 450px;
 	display: inline-block;
 	margin-top: 5px;
 	border-radius: 4px;
 	position: relative;
 	overflow: auto;
 	text-align: center;
+	padding-bottom: 25px;
 }
 .proj_btn_line {
 	position: absolute;
@@ -494,6 +494,9 @@ div.inputboxes_pres {
 	z-index: 1;
 }
 div.proj_box.no_discount_proj {
+	border: 4px solid transparent;
+}
+.elem_box.no_discount_proj{
 	border: 4px solid transparent;
 }
 .discount_proj div.discount_sign {
@@ -1006,19 +1009,19 @@ div.footer-2 ul li:before, div.footer-3 ul li:before {
 	border: none;
 	margin-bottom: 0px;
 }
-.srub_main_gal .flex-control-paging li {
+.srub_main_gal .flex-control-paging li, .srub_elements_gal .flex-control-paging li {
 	position: relative;
 }
-.srub_main_gal .flex-control-paging li a {
+.srub_main_gal .flex-control-paging li a, .srub_elements_gal .flex-control-paging li a {
 	background-color: #A3ABAF;
 	height: 30px;
 	width: 30px;
 	border-radius: 2px;
 }
-.srub_main_gal .flex-control-paging li a.flex-active {
+.srub_main_gal .flex-control-paging li a.flex-active, .srub_elements_gal .flex-control-paging li a.flex-active {
 	background-color: #E9B707;
 }
-.srub_main_gal .flex-control-paging li span {
+.srub_main_gal .flex-control-paging li span, .srub_elements_gal .flex-control-paging li span {
 	color: white;
 	font-family: KelsonSans;
 	font-size: 24px;
@@ -1030,15 +1033,26 @@ div.footer-2 ul li:before, div.footer-3 ul li:before {
 	left: 10px;
 	pointer-events: none;
 }
-.srub_main_gal .flex-control-paging {
-	top: 1408px;
+.srub_elements_gal .catal_arrs{
+	padding-bottom: 40px
+}
+.srub_elements_gal .flex-control-paging {
+	top: 976px;
 	position: absolute;
 	left: 755px;
 	padding-right: 40px;
 	width: 200px;
 }
-.srub_main_gal .go_catalog {
+.srub_main_gal .flex-control-paging{
+	top: 1392px;
+	position: absolute;
+	left: 755px;
+	padding-right: 40px;
+	width: 200px;
+}
+.srub_main_gal .go_catalog, .srub_elements_gal .go_catalog{
 	margin-right: 120px;
+	padding-top: 4px;
 }
 .srub_main_gal {
 	padding-bottom: 62px;
@@ -1075,6 +1089,15 @@ div.footer-2 ul li:before, div.footer-3 ul li:before {
 			font-family: KelsonSans;
 			font-size: 30px;
 			font-weight: 700;
+			margin-bottom: 17px;
+	}
+	.h4,h4{
+		color: #192d37;
+		font-family: KelsonSans;
+		font-size: 24px;
+		font-weight: 400;
+		margin-top: 15px;
+		margin-bottom: 7px;
 	}
 	.font_template{
 		margin-top:50px;
@@ -1082,9 +1105,8 @@ div.footer-2 ul li:before, div.footer-3 ul li:before {
 .p,p{
 	font-family: Verdana;
 	font-size: 14px;
-	font-weight: 400;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	font-weight: 400;	
+	margin-bottom: 10px;
 	color: #686d6f;
 	width: 970px;
   	line-height: 24px;
@@ -1096,8 +1118,99 @@ div.footer-2 ul li:before, div.footer-3 ul li:before {
 .font_template u{
 	color: #192d37;
 }
-/*
-li{
-	list-style-type: none;
+ul.yellow-list{
+	padding-left: 15px;
 }
-*/
+ul.yellow-list span{
+	font-family: Verdana;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #686d6f;
+    width: 970px;
+    line-height: 24px;
+    text-align: justify;
+}
+ul.yellow-list>li{
+	margin-bottom: 8px;
+}
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+  padding-left: 15px;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "– ";
+  text-indent: -5px;
+}
+ol.numbered_list { 
+    counter-reset: item;
+    list-style-type: none;
+    padding-left: 0px;
+}
+ol.numbered_list li { display: block; }
+
+ol.numbered_list li:before { 
+    content: counter(item) ""; 
+    counter-increment: item;
+    color: #192d37;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: 700;
+}
+ol.numbered_list li span:before {
+	content:  "–";
+	color: #192d37;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+ol.numbered_list li span{
+	font-family: Verdana;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #686d6f;
+    width: 970px;
+    line-height: 30px;
+    text-align: justify;
+}
+ul.dashed li{
+	line-height: 30px;
+}
+.gal_boxes .image_title{
+	color: #192d37;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: underline;
+}
+.elem_box{
+	width: 239px;
+	display: inline-block;
+	margin-top: 5px;
+	border-radius: 4px;
+	position: relative;
+	overflow: auto;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.elem_box img{
+	padding-bottom: 10px;
+}
+.elem_box.discount_proj{
+	border: 4px solid #eab600;
+	margin-top: 0;
+}
+.srub_main_gal .catal_arrs{
+	    margin-bottom: 4px;
+}
