@@ -599,12 +599,12 @@ div.proj_box input {
 	cursor: pointer;
 }
 .catal_arr_left {
-	background: url(../images/to_catalog_left.png) center center no-repeat;
+	background: url(../images/to_catalog_left_a.png) center center no-repeat;
 	margin-left: 19px;
 	margin-right: 7px;
 }
 .catal_arr_right {
-	background: url(../images/to_catalog_right.png) center center no-repeat;
+	background: url(../images/to_catalog_right_a.png) center center no-repeat;
 	margin-right: 18px;
 }
 .catal_arrs {
@@ -1213,4 +1213,10 @@ ul.dashed li{
 }
 .srub_main_gal .catal_arrs{
 	    margin-bottom: 4px;
+}
+.gallery-group>a {
+	display: none;
+}
+.gallery-group>a:first-child {
+	display: block;
 }
